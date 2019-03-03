@@ -63,9 +63,9 @@ file.write(f'--------------------------------\n')
 file.write(f'Total Votes: {TotNumVotes}\n')
 for x in range(0,len(CandidateList),1):
     file.write(f'{CandidateList[x]} : {"{percent:.3%}".format(percent=CandidatePer[x])} ({CandidateVotes[x]})\n')
-file.write(f'--------------------------------')
+file.write(f'--------------------------------\n')
 file.write(f'Winner : {Winner}\n')
-file.write(f'--------------------------------')
+file.write(f'--------------------------------\n')
 
 file.close() 
 
